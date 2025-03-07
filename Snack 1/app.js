@@ -51,5 +51,9 @@ console.log(pesoMinimo);
 
 // stampo su html
 
+let resultElement = document.getElementById("risultato");
+
+resultElement.innerHTML = `La bicicletta più leggera pesa ${(pesoMinimo)} chilogrammi `;
+
 
 
