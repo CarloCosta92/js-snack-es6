@@ -11,30 +11,30 @@
 // creo array squadre di calcio e gli do il nome e creo proprietà per punti e falli settati a 0
 
 const squadre = [
-    { 
-        nome: "Torino", 
-        punti: 0, 
-        falli: 0 
-    },
-    { 
-        nome: "Hellas", 
-        punti: 0, 
-        falli: 0 
+    {
+        nome: "Torino",
+        punti: 0,
+        falli: 0
     },
     {
-         nome: "Reggina", 
-         punti: 0, 
-         falli: 0 
+        nome: "Hellas",
+        punti: 0,
+        falli: 0
     },
-    { 
-        nome: "Fiorentina", 
-        punti: 0, 
-        falli: 0 
+    {
+        nome: "Reggina",
+        punti: 0,
+        falli: 0
     },
-    { 
-        nome: "Genoa", 
-        punti: 0, 
-        falli: 0 
+    {
+        nome: "Fiorentina",
+        punti: 0,
+        falli: 0
+    },
+    {
+        nome: "Genoa",
+        punti: 0,
+        falli: 0
     }
 ];
 
@@ -59,7 +59,7 @@ console.log(squadre);
 
 const squadreEFalli = [];
 
-for (let i= 0; i< squadre.length; i++) {
+for (let i = 0; i < squadre.length; i++) {
     squadreEFalli.push({
         nome: squadre[i].nome,
         falli: squadre[i].falli
