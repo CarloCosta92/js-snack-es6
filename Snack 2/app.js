@@ -54,3 +54,17 @@ for (let i = 0; i < squadre.length; i++) {
 }
 
 console.log(squadre);
+
+// fare nuovo array per stampare le squadre con solo i nomi e i falli
+
+const squadreEFalli = [];
+
+for (let i= 0; i< squadre.length; i++) {
+    squadreEFalli.push({
+        nome: squadre[i].nome,
+        falli: squadre[i].falli
+
+    })
+}
+
+console.log(squadreEFalli);
